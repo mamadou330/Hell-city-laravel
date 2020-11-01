@@ -1,4 +1,5 @@
-@extends('app')
+@extends('app' , ['title' => ' Hello City | Abouts Us'])
+
 @section('content')
 
     <p>Construit par &hearts; par Mamadou Saliou Bah</p>
