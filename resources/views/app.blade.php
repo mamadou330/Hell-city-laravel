@@ -11,7 +11,7 @@
     <body >
 
         @yield('content')
-        {{ config('app.name') }}
+    
         <footer>
             <p>&copy; Copyright {{ date('Y') }} &middot; <a href="{{ route('about') }}">A propos</a></p>
         </footer>
