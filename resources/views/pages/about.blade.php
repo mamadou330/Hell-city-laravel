@@ -1,4 +1,4 @@
-@extends('app' , ['title' => ' Hello City | Abouts Us'])
+@extends('app' , ['title' =>'Abouts Us | '.  config('app.name') ])
 
 @section('content')
 

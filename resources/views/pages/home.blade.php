@@ -1,4 +1,4 @@
-@extends('app', ['title' => 'Hello City '])
+@extends('app', ['title' => config('app.name') ])
 @section('content')
     <h1>Hello from Conakry !</h1>
 
