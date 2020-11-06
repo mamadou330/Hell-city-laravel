@@ -25,3 +25,12 @@ Route::view('/', 'pages.home')->name('home');
 // });
 
 Route::view('about-us', 'pages.about')->name('about');
+
+Route::view('help', 'pages.help')->name('help');
+
+
+
+
+
+
+
